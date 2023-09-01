@@ -1,0 +1,9 @@
+.div {
+    border: 10px solid black;
+    height: 900px;
+    width: 1500px;
+    background-image: url(../CSS/images/download\ \(2\).jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}

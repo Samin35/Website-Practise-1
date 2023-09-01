@@ -1,0 +1,15 @@
+.graph {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.head {
+    color: yellowgreen;
+}
+
+.align {
+    text-align: center;
+    font-style: initial;
+    font-weight: 900;
+}

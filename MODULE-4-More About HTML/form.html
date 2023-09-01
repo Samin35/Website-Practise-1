@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <form>
+                <!--INPUT MUST BE GIVEN UNDER LABEL AND THE FULL CODE WILL BE UNDER FORM TAG-->
+                <label for="">Enter your Email
+                    <input type="text" placeholder="Enter Your Email">
+                </label>
+                <label for=""> Enter Phone Number
+                    <input type="number" placeholder="Enter Your Number">
+                </label>
+                <!--Fieldset used making a line and legend use for text and must be input must be given under label tag-->
+                <fieldset>
+                    <legend>Choose the pitha</legend>
+                    <label for="chitoi"> <input type="checkbox" name="pitha" id="chitoi">Chitoi</label>
+                    <label for="Vapa"><input type="checkbox" name="pitha" id="Vapa">Vapa</label>
+                    <label for="Vapa"> <input type="checkbox" name="pitha" id="Mas">Mas</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select your favourite Chocklet</legend>
+                    <!--TEXT AREA USED FOR GIVING TEXT AS INPUT-->
+                    <label for="textarea">
+                        <textarea name="Enter your text" id="" cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit">
+                <input type="reset">
+            </form>
+
+
+        </section>
+    </main>
+</body>
+
+</html>

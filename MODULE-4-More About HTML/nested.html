@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            margin-left: 15px;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        nav ul li .dropdown {
+            display: none;
+            position: absolute;
+        }
+
+        nav ul li:hover .dropdown {
+            display: block;
+            background-color: yellow;
+            padding-left: 5px;
+        }
+
+        nav>ul>li>.dropdown>li:hover {
+            background-color: red;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            margin-left: 15px;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        .dropdown>li>.second-dropdown {
+            display: none;
+
+        }
+
+        .dropdown>li:hover>.second-dropdown {
+            display: block;
+            background-color: yellow;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">a1</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="">apple</a>
+                            <ul class="second-dropdown">
+                                <li><a href="">cadberry</a></li>
+                                <li><a href="">dairymilk</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">mango</a></li>
+                        <li><a href="">banana</a></li>
+                    </ul>
+                </li>
+                <li><a href="">b1</a></li>
+                <li><a href="">c1</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
